@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cheats Codes for GTA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cheats Codes of</string>
+    <string name="nav_header_subtitle">Vice City, San Andreas and 5</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">About the Developer</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2994133956240875/7473539686</string>
+    <string name="email">developer.saksham07@gmail.com</string>
+    <string name="menu_home">Select your Game Versions</string>
+    <string name="menu_rate">Rate it</string>
+    <string name="menu_insta">Instagram</string>
+    <string name="menu_share">Share</string>
+</resources>

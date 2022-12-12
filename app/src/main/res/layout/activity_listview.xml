@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="29sp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="Description"
+        android:background="@color/hexa4"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="29sp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:background="@color/hexa4"
+        android:gravity="center"
+        android:text="CODE"
+        android:textColor="#9683e5"
+        android:textSize="20sp" />
+</GridLayout>
+
+
+
+    <!--  Single List Item Design
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:padding="22dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:padding="22dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@color/hexa4"
+        android:textColor="@color/black">
+    </TextView> -->

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.home.HomeFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/gta5_button"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:src="@drawable/gta5m"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_light_background"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/gtavc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:layout_weight="1"
+                android:src="@drawable/gtavcm"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:layout_marginBottom="2dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/cardview_light_background"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/gtas_button"
+                android:layout_width="wrap_content"
+                android:layout_height="212dp"
+                android:src="@drawable/gtasanm"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/cardview_light_background"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/gta3_button"
+                android:layout_width="wrap_content"
+                android:layout_height="212dp"
+                android:src="@drawable/gta3"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/cardview_light_background"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/gta4_button"
+                android:layout_width="wrap_content"
+                android:layout_height="212dp"
+                android:src="@drawable/gta4"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/cardview_light_background"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/navmenu"
+        app:menu="@menu/navigation_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
